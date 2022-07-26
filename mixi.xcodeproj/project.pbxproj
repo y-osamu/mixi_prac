@@ -7,22 +7,38 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0BF4C39E288DD547004088BD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BF4C39D288DD547004088BD /* ContentView.swift */; };
+		0BB89B3F288F11B600DB8AC1 /* geoinfo.csv in Resources */ = {isa = PBXBuildFile; fileRef = 0BB89B3E288F11B600DB8AC1 /* geoinfo.csv */; };
+		0BB89B41288F210000DB8AC1 /* AppView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BB89B40288F210000DB8AC1 /* AppView.swift */; };
+		0BB89B43288F218400DB8AC1 /* memo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BB89B42288F218400DB8AC1 /* memo.swift */; };
+		0BB89B45288F270B00DB8AC1 /* Repo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BB89B44288F270B00DB8AC1 /* Repo.swift */; };
+		0BB89B47288F271200DB8AC1 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BB89B46288F271200DB8AC1 /* User.swift */; };
+		0BB89B4A28903CBB00DB8AC1 /* RepoDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BB89B4928903CBB00DB8AC1 /* RepoDetailView.swift */; };
+		0BB89B4C28903DC800DB8AC1 /* RepoRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BB89B4B28903DC800DB8AC1 /* RepoRowView.swift */; };
+		0BB89B4F2890423500DB8AC1 /* Repo+mock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BB89B4E2890423500DB8AC1 /* Repo+mock.swift */; };
+		0BB89B512890424A00DB8AC1 /* User+mock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BB89B502890424A00DB8AC1 /* User+mock.swift */; };
+		0BF4C39E288DD547004088BD /* RepoListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BF4C39D288DD547004088BD /* RepoListView.swift */; };
 		0BF4C3A0288DD549004088BD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0BF4C39F288DD549004088BD /* Assets.xcassets */; };
 		0BF4C3A3288DD549004088BD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0BF4C3A2288DD549004088BD /* Preview Assets.xcassets */; };
 		0BF4C3AB288DD790004088BD /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0BF4C3AA288DD790004088BD /* CoreLocation.framework */; };
-		0BF4C3AE288DE193004088BD /* map.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BF4C3AD288DE193004088BD /* map.swift */; };
 		0BF4C3B0288DE311004088BD /* recent_latlon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BF4C3AF288DE311004088BD /* recent_latlon.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		0BF4C398288DD547004088BD /* geo_guide.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = geo_guide.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		0BF4C39D288DD547004088BD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		0BB89B3E288F11B600DB8AC1 /* geoinfo.csv */ = {isa = PBXFileReference; lastKnownFileType = text; path = geoinfo.csv; sourceTree = "<group>"; };
+		0BB89B40288F210000DB8AC1 /* AppView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppView.swift; sourceTree = "<group>"; };
+		0BB89B42288F218400DB8AC1 /* memo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = memo.swift; sourceTree = "<group>"; };
+		0BB89B44288F270B00DB8AC1 /* Repo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Repo.swift; sourceTree = "<group>"; };
+		0BB89B46288F271200DB8AC1 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		0BB89B4928903CBB00DB8AC1 /* RepoDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepoDetailView.swift; sourceTree = "<group>"; };
+		0BB89B4B28903DC800DB8AC1 /* RepoRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepoRowView.swift; sourceTree = "<group>"; };
+		0BB89B4E2890423500DB8AC1 /* Repo+mock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Repo+mock.swift"; sourceTree = "<group>"; };
+		0BB89B502890424A00DB8AC1 /* User+mock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "User+mock.swift"; sourceTree = "<group>"; };
+		0BF4C398288DD547004088BD /* mixi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = mixi.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0BF4C39D288DD547004088BD /* RepoListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepoListView.swift; sourceTree = "<group>"; };
 		0BF4C39F288DD549004088BD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0BF4C3A2288DD549004088BD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		0BF4C3AA288DD790004088BD /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
-		0BF4C3AC288DD9AB004088BD /* Infgeo_guide.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Infgeo_guide.plist; sourceTree = "<group>"; };
-		0BF4C3AD288DE193004088BD /* map.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = map.swift; sourceTree = "<group>"; };
+		0BF4C3AC288DD9AB004088BD /* Infmixi.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Infmixi.plist; sourceTree = "<group>"; };
 		0BF4C3AF288DE311004088BD /* recent_latlon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = recent_latlon.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -38,10 +54,38 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0BB89B48288F272200DB8AC1 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				0BB89B44288F270B00DB8AC1 /* Repo.swift */,
+				0BB89B46288F271200DB8AC1 /* User.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		0BB89B4D28903F9E00DB8AC1 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				0BF4C39D288DD547004088BD /* RepoListView.swift */,
+				0BB89B4928903CBB00DB8AC1 /* RepoDetailView.swift */,
+				0BB89B4B28903DC800DB8AC1 /* RepoRowView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		0BB89B522890426200DB8AC1 /* Mocks */ = {
+			isa = PBXGroup;
+			children = (
+				0BB89B4E2890423500DB8AC1 /* Repo+mock.swift */,
+				0BB89B502890424A00DB8AC1 /* User+mock.swift */,
+			);
+			path = Mocks;
+			sourceTree = "<group>";
+		};
 		0BF4C38F288DD547004088BD = {
 			isa = PBXGroup;
 			children = (
-				0BF4C39A288DD547004088BD /* geo_guide */,
+				0BF4C39A288DD547004088BD /* mixi */,
 				0BF4C399288DD547004088BD /* Products */,
 				0BF4C3A9288DD78F004088BD /* Frameworks */,
 			);
@@ -50,28 +94,32 @@
 		0BF4C399288DD547004088BD /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				0BF4C398288DD547004088BD /* geo_guide.app */,
+				0BF4C398288DD547004088BD /* mixi.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		0BF4C39A288DD547004088BD /* geo_guide */ = {
+		0BF4C39A288DD547004088BD /* mixi */ = {
 			isa = PBXGroup;
 			children = (
-				0BF4C3AC288DD9AB004088BD /* Infgeo_guide.plist */,
-				0BF4C39D288DD547004088BD /* ContentView.swift */,
-				0BF4C3AD288DE193004088BD /* map.swift */,
+				0BF4C3AC288DD9AB004088BD /* Infmixi.plist */,
+				0BB89B40288F210000DB8AC1 /* AppView.swift */,
+				0BB89B4D28903F9E00DB8AC1 /* Views */,
+				0BB89B48288F272200DB8AC1 /* Models */,
+				0BB89B3E288F11B600DB8AC1 /* geoinfo.csv */,
+				0BB89B42288F218400DB8AC1 /* memo.swift */,
 				0BF4C3AF288DE311004088BD /* recent_latlon.swift */,
 				0BF4C39F288DD549004088BD /* Assets.xcassets */,
 				0BF4C3A1288DD549004088BD /* Preview Content */,
 			);
-			path = geo_guide;
+			path = mixi;
 			sourceTree = "<group>";
 		};
 		0BF4C3A1288DD549004088BD /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
 				0BF4C3A2288DD549004088BD /* Preview Assets.xcassets */,
+				0BB89B522890426200DB8AC1 /* Mocks */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
@@ -87,9 +135,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		0BF4C397288DD547004088BD /* geo_guide */ = {
+		0BF4C397288DD547004088BD /* mixi */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 0BF4C3A6288DD549004088BD /* Build configuration list for PBXNativeTarget "geo_guide" */;
+			buildConfigurationList = 0BF4C3A6288DD549004088BD /* Build configuration list for PBXNativeTarget "mixi" */;
 			buildPhases = (
 				0BF4C394288DD547004088BD /* Sources */,
 				0BF4C395288DD547004088BD /* Frameworks */,
@@ -99,9 +147,9 @@
 			);
 			dependencies = (
 			);
-			name = geo_guide;
+			name = mixi;
 			productName = o;
-			productReference = 0BF4C398288DD547004088BD /* geo_guide.app */;
+			productReference = 0BF4C398288DD547004088BD /* mixi.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -119,7 +167,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 0BF4C393288DD547004088BD /* Build configuration list for PBXProject "geo_guide" */;
+			buildConfigurationList = 0BF4C393288DD547004088BD /* Build configuration list for PBXProject "mixi" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -132,7 +180,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				0BF4C397288DD547004088BD /* geo_guide */,
+				0BF4C397288DD547004088BD /* mixi */,
 			);
 		};
 /* End PBXProject section */
@@ -142,6 +190,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0BB89B3F288F11B600DB8AC1 /* geoinfo.csv in Resources */,
 				0BF4C3A3288DD549004088BD /* Preview Assets.xcassets in Resources */,
 				0BF4C3A0288DD549004088BD /* Assets.xcassets in Resources */,
 			);
@@ -155,8 +204,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				0BF4C3B0288DE311004088BD /* recent_latlon.swift in Sources */,
-				0BF4C3AE288DE193004088BD /* map.swift in Sources */,
-				0BF4C39E288DD547004088BD /* ContentView.swift in Sources */,
+				0BB89B4F2890423500DB8AC1 /* Repo+mock.swift in Sources */,
+				0BB89B43288F218400DB8AC1 /* memo.swift in Sources */,
+				0BB89B47288F271200DB8AC1 /* User.swift in Sources */,
+				0BB89B512890424A00DB8AC1 /* User+mock.swift in Sources */,
+				0BB89B45288F270B00DB8AC1 /* Repo.swift in Sources */,
+				0BB89B41288F210000DB8AC1 /* AppView.swift in Sources */,
+				0BB89B4C28903DC800DB8AC1 /* RepoRowView.swift in Sources */,
+				0BB89B4A28903CBB00DB8AC1 /* RepoDetailView.swift in Sources */,
+				0BF4C39E288DD547004088BD /* RepoListView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -286,11 +342,11 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"geo_guide/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"mixi/Preview Content\"";
 				DEVELOPMENT_TEAM = Z794K4UU5F;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = geo_guide/Infgeo_guide.plist;
+				INFOPLIST_FILE = mixi/Infmixi.plist;
 				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -317,11 +373,11 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"geo_guide/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"mixi/Preview Content\"";
 				DEVELOPMENT_TEAM = Z794K4UU5F;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = geo_guide/Infgeo_guide.plist;
+				INFOPLIST_FILE = mixi/Infmixi.plist;
 				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -344,7 +400,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		0BF4C393288DD547004088BD /* Build configuration list for PBXProject "geo_guide" */ = {
+		0BF4C393288DD547004088BD /* Build configuration list for PBXProject "mixi" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				0BF4C3A4288DD549004088BD /* Debug */,
@@ -353,7 +409,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		0BF4C3A6288DD549004088BD /* Build configuration list for PBXNativeTarget "geo_guide" */ = {
+		0BF4C3A6288DD549004088BD /* Build configuration list for PBXNativeTarget "mixi" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				0BF4C3A7288DD549004088BD /* Debug */,

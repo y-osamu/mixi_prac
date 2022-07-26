@@ -6,20 +6,8 @@
 //
 import CoreLocation
 import MapKit
-import SwiftUI
 
-
-@main
-struct MyApp: App { // App is handling the `main` function
-  var body: some Scene {
-    WindowGroup {
-      ContentView()
-    }
-  }
-}
-
-class LocationManger : NSObject, ObservableObject, CLLocationManagerDelegate{
-    
+class LocationManger : NSObject, ObservableObject, CLLocationManagerDelegate{    
     let manager = CLLocationManager()
     
     @Published var region = MKCoordinateRegion()
