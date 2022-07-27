@@ -19,7 +19,7 @@ struct RepoRow: View {
             VStack(alignment:.leading){
                 Text(repo.owner.name)
                     .font(.caption)
-                Text(repo.owner.name)
+                Text(repo.name)
                     .font(.body)
                     .fontWeight(.semibold)
             }
